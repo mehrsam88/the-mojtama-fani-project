@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="18" height="18">
+	<title>icons8-cart-20</title>
+	<defs>
+		<image  width="16" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAANCAMAAACXZR4WAAAAAXNSR0IB2cksfwAAALRQTFRF////////////////AAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7oYOigAAADx0Uk5TM5mSKQDGv0X5Erm7LQt2iLL3CcSEjLrSdfoY/i9aIm/oAZ3/fx3R7GF38sAPosul4AqU3YChprTJPlTPmdmKgAAAAIJJREFUeJxVy9kWwTAUheGUTUKFVmsmKKU11FBqev/3EhnW0v/ufOtsQpxKFX8R4tTqJQAoazRdW0sCZ7Td0Xl+VwKC0P73+r8JwsDCYKiAjri+x5OpAs5mQjVfLBUgWpnW0BBvtokQ6W5/MHDMTmdc/Gt+M3DPijLEj+cLeH8KOfkC3dMNIaqFlTMAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="4"/>
+</svg>

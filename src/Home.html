@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style-menu.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/simple-logo.ico" />
+    <title>M-stream studio</title>
+  </head>
+  <body>
+    <!-------------the header part------------->
+
+    <header>
+      <input type="checkbox" id="hamburger" />
+      <!-------------the header logo part //TODO: shows logo and hamburger button------------->
+      <div class="logo-hamburger-button">
+        <!-------------the header logo part1 //TODO: diplay haburger button------------->
+        <label for="hamburger">
+          <div id="hamburger-button">
+            <img
+              src="../assets/img/svg/hamburger-button-48.svg"
+              alt="hamburger button"
+            />
+          </div>
+          <div id="cross-button">
+            <img src="../assets/img/svg/cross-48.svg" alt="hamburger button" />
+          </div>
+        </label>
+        <!-------------the header logo part2 //TODO: shows logo------------->
+        <img src="../assets/img/new-logo4.png" alt="logo" class="logo" />
+      </div>
+      <!-------------the header nav part //TODO: show links------------->
+
+      <ul class="nav-links">
+        <li><a class="transparent-lowcolor active" href="#">Home</a></li>
+        <li><a href="#">offers</a></li>
+        <li id="search-button">
+          <a href="#"
+            >Search<img src="../assets/img/svg/Arrow - Down 2 - 2.svg" />
+          </a>
+        </li>
+        <li><a class="transparent-mediumcolor" href="contact.html">contact</a></li>
+      </ul>
+
+      <!-------------the header login and signin part //TODO: go to profile------------->
+
+      <div class="entering-profile">
+        <div class="login-button">
+          <label for="login">
+            <p>Login</p>
+          </label>
+        </div>
+        <input type="checkbox" name="login" id="login" />
+        <form action="Home.html">
+          <div class="login-form">
+            <div class="login">
+              <h2>Login</h2>
+              <div class="login-form-input">
+                <label for="email">email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Please enter your email address"
+                  required
+                />
+              </div>
+              <div class="login-form-input">
+                <label for="Password">Password</label>
+                <input
+                  type="text"
+                  id="Password"
+                  placeholder="please enter your passsword"
+                  required
+                />
+              </div>
+              <div class="links">
+                <a href="#">Forgot Password</a>
+                <a href="#">Signup</a>
+              </div>
+              <input type="submit" value="Login" />
+            </div>
+          </div>
+        </form>
+        <div class="signup-button">
+          <a href="#"><button>Signup</button></a>
+        </div>
+      </div>
+      
+    </header>
+    
+    <!-------------the section part------------->
+    <section>
+      <!-------------the section part //TODO: welcoming part------------->
+      <div class="container">
+        <!---------the section description part //TODO: description--------->
+
+        <div class="container-description">
+          <h1 id="container-buttons-h1">Special offer</h1>
+          <h2>"Happy new year"</h2>
+          <p>
+            Spark your 2024 with M-Stream Studios! Enjoy 20% off all studio
+            bookings in January & February.<br />
+            Film your dream project, record your music, or share your voice in
+            state-of-the-art facilities. <br />Don't miss out on this
+            limited-time offer–contact us today and let your creativity stream
+            into reality!
+          </p>
+          <!----the section description part //TODO: description buttons---->
+          <div id="container-buttons">
+            <div class="container-buttons-contact">
+              <a href="#">
+                <button>
+                  <img src="../assets/img/svg/Profile.svg" alt="conatct" />
+                  About
+                </button>
+              </a>
+            </div>
+            <div class="container-buttons-cart">
+              <a href="#">
+                <button>
+                  start your experience
+                  <img src="../assets/img/svg/cart.svg" alt="cart" />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- the section description image part-->
+        <div class="container-description-part2">
+          <img
+            class="container-img"
+            src="../assets/img/svg/output.svg"
+            alt="output"
+          />
+          <!-- <p>Ps console-handle</p> -->
+        </div>
+      </div>
+      <!--*the section choosing menu part part //TODO: choose the favourite-->
+    </section>
+    <div class="background">
+      <div class="clothes-menu">
+        <div class="menu-head">
+          <p>what's you'r favourite ?</p>
+        </div>
+        <!--*the section description option part //TODO: select a part for continue browsing-->
+        <div class="menu">
+          <div class="menu-item">
+            <!-- part 1-->
+            <input type="radio" id="item-1" name="option" checked />
+            <label class="slide" for="item-1">
+              <div class="row">
+                <div class="icon">1</div>
+                <div class="description">
+                  <h4>Clothes & Shirts</h4>
+                  <p>
+                    
+                      searching among over 100 models of men's clothing
+                  </p>
+                </div>
+              </div>
+            </label>
+            <!-- part 2-->
+            <input type="radio" id="item-2" name="option" />
+            <label class="slide" for="item-2">
+              <div class="row">
+                <div class="icon">2</div>
+                <div class="description">
+                  <h4>Jacket</h4>
+                  <p>
+                     here is the most populor Jackets you think
+                  </p>
+                </div>
+              </div>
+            </label>
+            <!-- part 3-->
+            <input type="radio" id="item-3" name="option" />
+            <label class="slide" for="item-3">
+              <div class="row">
+                <div class="icon">3</div>
+                <div class="description">
+                  <h4>Shoes</h4>
+                  <p>
+                      the god of war ragnorok was a game of the year
+                  </p>
+                </div>
+              </div>
+            </label>
+            <!-- part 4-->
+            <input type="radio" id="item-4" name="option" />
+            <label class="slide" for="item-4">
+              <div class="row">
+                <div class="icon">4</div>
+                <div class="description">
+                  <h4>accesory</h4>
+                  <p> you can buy whatever accesory you want</p>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- todo: swipper cards for shop -->
+    <div class="new-product">
+      <div class="best-seller-text">
+        <p>best sellers:</p>
+      </div>
+      <div class="scroll-wrapper">
+        <div class="scroll-repository">
+          <!-- item 1 -->
+          <div class="box-photo">
+            <div class="scroll-bar" id="clothes-item-1">
+              <div class="heart-div">
+                <input type="checkbox" name="heart-onclick" id="heart-button" />
+                <label for="heart-button">
+                  <img
+                    id="heart-1"
+                    class="heart"
+                    src="../assets/img/svg/Heart - 1.svg"
+                    alt="heart"
+                  />
+                  <img
+                    class="heart"
+                    id="heart-2"
+                    src="../assets/img/svg/heart2.svg"
+                    alt="heart"
+                  />
+                </label>
+              </div>
+
+              <div class="box-photo-description">
+                <span>adidas</span>
+                <p>Emirates the fly better-realmadrid</p>
+                <h4>18$</h4>
+                <a href="clothes-detail.html"
+                  ><img
+                    class="Arrow-RightCircle"
+                    src="../assets/img/svg/Arrow - Right Circle - 2.svg"
+                    alt="Arrow-Right Circle"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="box-photo">
+            <div class="scroll-bar" id="clothes-item-2">
+              <div class="heart-div">
+                <input
+                  type="checkbox"
+                  name="heart-onclick"
+                  id="heart-button-2"
+                />
+                <label for="heart-button-2">
+                  <img
+                    id="heart-1"
+                    class="heart"
+                    src="../assets/img/svg/Heart - 1.svg"
+                    alt="heart"
+                  />
+                  <img
+                    class="heart"
+                    id="heart-2"
+                    src="../assets/img/svg/heart2.svg"
+                    alt="heart"
+                  />
+                </label>
+              </div>
+
+              <div class="box-photo-description">
+                <span>Nike</span>
+                <p>Standard chartered red-Express</p>
+                <div class="margin-bottom">
+                  <h4>22$</h4>
+                  <a href="clothes-detail.html"
+                    ><img
+                      class="Arrow-RightCircle"
+                      src="../assets/img/svg/Arrow - Right Circle - 2.svg"
+                      alt="Arrow-Right Circle"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- item3 -->
+          <div class="box-photo">
+            <div class="scroll-bar" id="clothes-item-3">
+              <div class="heart-div">
+                <input
+                  type="checkbox"
+                  name="heart-onclick"
+                  id="heart-button-3"
+                />
+                <label for="heart-button-3">
+                  <img
+                    id="heart-1"
+                    class="heart"
+                    src="../assets/img/svg/Heart - 1.svg"
+                    alt="heart"
+                  />
+                  <img
+                    class="heart"
+                    id="heart-2"
+                    src="../assets/img/svg/heart2.svg"
+                    alt="heart"
+                  />
+                </label>
+              </div>
+
+              <div class="box-photo-description">
+                <span>adidas</span>
+                <p>Emirates the fly better-realmadrid</p>
+                <h4>18$</h4>
+                <a href="clothes-detail.html"
+                  ><img
+                    class="Arrow-RightCircle"
+                    src="../assets/img/svg/Arrow - Right Circle - 2.svg"
+                    alt="Arrow-Right Circle"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="box-photo">
+            <div class="scroll-bar" id="clothes-item-4">
+              <div class="heart-div">
+                <input
+                  type="checkbox"
+                  name="heart-onclick"
+                  id="heart-button-4"
+                />
+                <label for="heart-button-4">
+                  <img
+                    id="heart-1"
+                    class="heart"
+                    src="../assets/img/svg/Heart - 1.svg"
+                    alt="heart"
+                  />
+                  <img
+                    class="heart"
+                    id="heart-2"
+                    src="../assets/img/svg/heart2.svg"
+                    alt="heart"
+                  />
+                </label>
+              </div>
+              <div class="box-photo-description">
+                <span>adidas</span>
+                <p>Emirates the fly better-realmadrid</p>
+                <h4>18$</h4>
+                <a href="clothes-detail.html"
+                  ><img
+                    class="Arrow-RightCircle"
+                    src="../assets/img/svg/Arrow - Right Circle - 2.svg"
+                    alt="Arrow-Right Circle"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--todo: footer part -->
+    <footer>
+      <div class="footer-description">
+        <div class="social-media">
+          <img src="../assets/img/svg/icons8-twitter-svg.svg" alt="twitter" />
+        </div>
+        <div class="social-media">
+          <img
+            id="number-2"
+            src="../assets/img/svg/icons8-faceboo-1-svg.svg"
+            alt="facebook"
+          />
+        </div>
+        <div class="social-media">
+          <img
+            id="number-3"
+            src="../assets/img/svg/icons8-instagram-svg.svg"
+            alt=""
+          />
+        </div>
+        <div class="social-media">
+          <img
+            id="number-4"
+            src="../assets/img/svg/icons8-linked-in-svg.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="footer-description-links">
+        <div class="footer-links-head">
+          <a href="#" class="footer-link">Work</a>
+          <a href="#" class="footer-link">Services</a>
+          <a href="#" class="footer-link">story</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+        <div></div>
+        <div id="copyrigth-footer">
+          <p>
+            &copy;2024 M-stream studio| every using the content of this site
+            have law properties
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

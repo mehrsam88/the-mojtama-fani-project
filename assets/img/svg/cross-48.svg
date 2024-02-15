@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+	<title>icons8-cross-48</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAEVQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////Up1zwgAAABd0Uk5TACdHEhNIgf7/7kko+Esm7RH3+U79JYBrgWofAAAAmElEQVR4nH2T2xLDIAhE8RYxNZpe//9Tm9jMpApZXxTOwKy4EpGxjsTywezbFDnNI5sTx4noFpk5Lz1b8paMhQKzoI0xW/JV0IPVdWufB3qw3ISEewsezx9D4cC6hGB/KYWdIkZxXa1S11PJTqoxCFFbJAhdBQ0BjQ8NHoXosX26tInDBjOX1ny9m6mraurPfijad3C2EH0BPYAQEkOftPIAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="10" y="10"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25">
+	<title>Heart</title>
+	<defs>
+		<image  width="22" height="22" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAAAXNSR0IB2cksfwAAAN5QTFRFAAAA/////wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wEB/wAA/wAA/wAA/wAA/wAA/wUF/9TU/xER/wAA/wAA/wAA/wgI/+Xl//v7/9PT/wEB/wAA/wAA/wMD/8/P/////56e/wMD/7q6/9bW/wAA/wAA/wEB/8XF/+zs/wEB/wAA/wEB/wwM/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAAUi+TpAAAAEp0Uk5TABJAr//fTlAQn8D39P72/fzxv3Dw+fr+++z78/L9///6/DDp+Pr//vXh/2CA1vz79vjfpvXs7egg0ObR1uHl4OrdnvEMqt7TkM9GGjMVAAABIElEQVR4nIWR6VICMRAGIzSKwGyCLqsGPADFAzxWXWS9APF8/xdyFvCgyiq//EpX0pmZGLOYJfNvcnko5JdX8gXI5+awqPB3VotTXKJcEQgE66oOx1pG1wmdKHa1SDY2tyzCuuIQj603vBcv2zu7e01LaEyLNohYXU72DzqdwyNPSx0BYplhXz3unDQ9XdNTbK1Ekt2I5PTs/MLRMzli1BqJ9epy9vIquCan7jjbBarQGspJrZ/cMDAm5Va1lXkvd+X2PakW2OXhUVSTRRvCJ/qiZshIYaQSakI8pjRtvhUSj1SspTjiPuFgNqsuDCPqklUZwNcIzRNM+i5rKGEmnub5BV5j9UwIv8/O/Yzrb410sPhBxXf4MMU/fm6Y/mw+ATXIGpmfAzaAAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="1" y="0"/>
+</svg>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style-contact.css">
+    <link rel="icon" type="image/x-icon" href="../assets/img/simple-logo.ico" />
+    <title>Contact</title>
+  </head>
+  <body id="contact-body">
+    <header>
+      <input type="checkbox" id="hamburger" />
+      <!-------------the header logo part //TODO: shows logo and hamburger button------------->
+      <div class="logo-hamburger-button">
+        <!-------------the header logo part1 //TODO: diplay haburger button------------->
+        <label for="hamburger">
+          <div id="hamburger-button">
+            <img
+              src="../assets/img/svg/hamburger-button-48.svg"
+              alt="hamburger button"
+            />
+          </div>
+          <div id="cross-button">
+            <img src="../assets/img/svg/cross-48.svg" alt="hamburger button" />
+          </div>
+        </label>
+        <!-------------the header logo part2 //TODO: shows logo------------->
+        <img src="../assets/img/new-logo4.png" alt="logo" class="logo" />
+      </div>
+      <!-------------the header nav part //TODO: show links------------->
+
+      <ul class="nav-links">
+        <li><a class="transparent-lowcolor" href="Home.html">Home</a></li>
+        <li><a href="#">offers</a></li>
+        <li id="search-button">
+          <a href="#"
+            >Search<img src="../assets/img/svg/Arrow - Down 2 - 2.svg" />
+          </a>
+        </li>
+        <li><a class="transparent-mediumcolor active" href="contact.html">contact</a></li>
+      </ul>
+
+      <!-------------the header login and signin part //TODO: go to profile------------->
+
+      <div class="entering-profile">
+        <div class="login-button">
+          <label for="login">
+            <p>Login</p>
+          </label>
+        </div>
+        <input type="checkbox" name="login" id="login" />
+        <form action="Home.html">
+          <div class="login-form">
+            <div class="login">
+              <h2>Login</h2>
+              <div class="login-form-input">
+                <label for="email">email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Please enter your email address"
+                  required
+                />
+              </div>
+              <div class="login-form-input">
+                <label for="Password">Password</label>
+                <input
+                  type="text"
+                  id="Password"
+                  placeholder="please enter your passsword"
+                  required
+                />
+              </div>
+              <div class="links">
+                <a href="#">Forgot Password</a>
+                <a href="#">Signup</a>
+              </div>
+              <input type="submit" value="Login" />
+            </div>
+          </div>
+        </form>
+        <div class="signup-button">
+          <a href="#"><button>Signup</button></a>
+        </div>
+      </div>
+    </header>
+    <!--  cantact part--------------- -->
+    <section id="contact-details">
+      <div class="details">
+        <span>contatc-us</span>
+        <h2>visit us face to face</h2>
+        <ul>
+          <li>
+            <img src="../assets/img/svg/World.svg" alt="world" />
+            <p>
+              if you want join us send your description to our<a
+                href="mailto:mehrsammohseni@gmail.com"
+              >
+                email</a
+              >
+            </p>
+          </li>
+          <li>
+            <img src="../assets/img/svg/Calling.svg" alt="call" />
+            <a href="tel:09022027708"><p>you can call us too</p></a>
+          </li>
+          <li>
+            <img src="../assets/img/svg/Location.svg" alt="location" />
+            <p>come to our loctaion</p>
+          </li>
+        </ul>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1550.9641247205545!2d53.06150720596186!3d36.57996954971981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8515446a7e7fe1%3A0xa9278b11808e82c1!2z2YXYrNiq2YXYuSDZgdmG2Yog2KrZh9ix2KfZhiDZhtmF2KfZitmG2K_ar9mKINiz2KfYsdmKKNiv2YrYqNin2q_Ysdin2YYg2KrZh9ix2KfZhinYpw!5e0!3m2!1sen!2sus!4v1707982986208!5m2!1sen!2sus"
+        ></iframe>
+      </div>
+    </section>
+    <!-- TODO : footer part-->
+    <footer id="contact-footer">
+      <div class="footer-description">
+        <div class="social-media">
+          <img src="../assets/img/svg/icons8-twitter-svg.svg" alt="twitter" />
+        </div>
+        <div class="social-media">
+          <img
+            id="number-2"
+            src="../assets/img/svg/icons8-faceboo-1-svg.svg"
+            alt="facebook"
+          />
+        </div>
+        <div class="social-media">
+          <img
+            id="number-3"
+            src="../assets/img/svg/icons8-instagram-svg.svg"
+            alt=""
+          />
+        </div>
+        <div class="social-media">
+          <img
+            id="number-4"
+            src="../assets/img/svg/icons8-linked-in-svg.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="footer-description-links">
+        <div class="footer-links-head">
+          <a href="#" class="footer-link">Work</a>
+          <a href="#" class="footer-link">Services</a>
+          <a href="#" class="footer-link">story</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+        <div></div>
+        <div id="copyrigth-footer">
+          <p>
+            &copy;2024 M-stream studio| every using the content of this site
+            have law properties
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

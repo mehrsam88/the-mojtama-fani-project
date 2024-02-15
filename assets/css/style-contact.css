@@ -1,0 +1,62 @@
+#contact-body {
+  background: linear-gradient(60deg, blue 30%, white);
+  background-size: cover;
+  position: relative;
+}
+#contact-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 65px;
+  color: white;
+}
+#contact-details .details span {
+  font-size: large;
+  color: #9db8dd;
+}
+#contact-details .details h2 {
+  font-size: 35px;
+  margin: 10px 0;
+}
+#contact-details .details ul li {
+  list-style-type: none;
+  display: flex;
+  margin: 15px 0;
+  font-size: 20px;
+}
+#contact-details .details ul li img {
+  margin: 0 10px 0 0;
+}
+#contact-details .details ul li a[href="mailto:mehrsammohseni@gmail.com"] {
+  color: #87836a;
+  font-weight: bolder;
+}
+#contact-details .details {
+  width: 40%;
+}
+
+#contact-details iframe {
+  width: 40vw;
+  height: 400px;
+  margin: 25px 0;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 695px) {
+  #contact-details {
+    flex-direction: column;
+  }
+  #contact-details .details {
+    margin: 45px 0 10px 0;
+    width: 100%;
+  }
+  #contact-details iframe {
+    width: 100vw;
+  }
+}
+@media screen and (min-height:915px){
+ #contact-footer{
+  margin-top: 48% ;
+} 
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="30" height="30">
+	<title>hamburger-button-48</title>
+	<defs>
+		<image  width="36" height="36" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAAAXNSR0IB2cksfwAAAG9QTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////L9MC0QAAACV0Uk5TACCZ4/z/mB9G8vFEHt5CBkPfl+GG94UB8yNzdyLce4ji4EWW8KBVE24AAAC2SURBVHic3ZTZDoJADEUrwwVlkEUEEVlU+P9vtOCLAnWIMcZ4n09OO820RLSylA0htnJc4qw3EnGPp9ljYJjyyQK2QUhCwigGdqSAQEL6REBC3LPoGVzcPXHRVwwNwMehfTp9e5o9Q4d8bkL5yJQtMH37dYugY3GapChHUDU3guodqKybSepxuV+c059+lUXLeTasuQYu5ACxlg/GlQ9GS643N6HHdD77DFQX9Uq/TeRzmLTsuQE78RQ8OKu8TAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="6" y="6"/>
+</svg>
